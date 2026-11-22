@@ -15,6 +15,13 @@
 <style>
 body{margin:0}
 a{color:#111111}a:hover{color:#9C5200}
+.f-l{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:700;color:#111111}
+.f-in{font:inherit;font-size:16px;font-weight:400;color:#111111;background:#FFFFFF;border:1px solid #8A8A8A;border-radius:0;padding:12px 14px;min-height:48px;box-sizing:border-box;width:100%}
+textarea.f-in{min-height:112px;resize:vertical;line-height:1.7}
+.f-in:focus{outline:2px solid #E8830C;outline-offset:1px;border-color:#111111}
+.f-req{font-size:11px;font-weight:700;color:#9C5200;margin-left:6px}
+.f-btn{font:inherit;font-size:17px;font-weight:900;color:#111111;background:#E8830C;border:0;min-height:60px;padding:0 36px;cursor:pointer;width:100%}
+.f-btn:hover{background:#F5A030}
 </style>
 </head>
 <body>
@@ -150,7 +157,7 @@ a{color:#111111}a:hover{color:#9C5200}
 <p style="margin: 0; font-size: 14px; color: #4A4A4A">呼吸に合わせて、座りっぱなしの身体をゆるめます。</p>
 </div>
 </div>
-<p style="margin: 0; font-size: 13px; color: #5C5C5C">クラスの内容と時間割は変わることがあります。[最新の時間割へのリンク]</p>
+<p style="margin: 0; font-size: 13px; color: #5C5C5C">クラスの内容と時間割は変わることがあります。<a href="https://solera-kyoto.hacomono.jp/reserve/schedule/1/6/" target="_blank" rel="noopener" style="font-weight: 700">最新の時間割を見る</a></p>
 </div>
 </section>
 
@@ -255,7 +262,7 @@ a{color:#111111}a:hover{color:#9C5200}
 <div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column">
 <div style="padding: 16px 0; border-top: 2px solid #111111; display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px"><span style="font-size: 14px; font-weight: 900">プラン</span><span style="font-size: 15px">M2プラン（月2回、低酸素スタジオでのレッスン）</span></div>
 <div style="padding: 16px 0; border-top: 1px solid #C9C9C9; display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px"><span style="font-size: 14px; font-weight: 900">契約</span><span style="font-size: 15px">年間契約</span></div>
-<div style="padding: 16px 0; border-top: 1px solid #C9C9C9; display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px"><span style="font-size: 14px; font-weight: 900">オプション</span><span style="font-size: 15px">レッスンに続けて、有酸素マシンを使えるオプションがあります。</span></div>
+<div style="padding: 16px 0; border-top: 1px solid #C9C9C9; display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px"><span style="font-size: 14px; font-weight: 900">オプション</span><span style="font-size: 15px">レッスンに続けて有酸素マシンを使う場合は、月額2,000円（税込 2,200円）を追加。合わせて1名 月額7,800円（税込 8,580円）です。</span></div>
 <div style="padding: 16px 0; border-top: 1px solid #C9C9C9; border-bottom: 2px solid #111111; display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 16px"><span style="font-size: 14px; font-weight: 900">人数</span><span style="font-size: 15px">1名から。回数の多いプランや、人数が多い場合はお問い合わせください。</span></div>
 </div>
 </div>
@@ -343,7 +350,7 @@ a{color:#111111}a:hover{color:#9C5200}
 </div>
 <div style="padding: 20px 0; border-top: 1px solid #8A8A8A; border-bottom: 1px solid #8A8A8A; display: flex; flex-direction: column; gap: 4px">
 <h3 style="margin: 0; font-size: 17px; font-weight: 900">着替えやシャワーは。</h3>
-<p style="margin: 0; color: #D0D0D0; font-size: 15px">シャワーを完備しています。[更衣室・レンタルウェアの有無]</p>
+<p style="margin: 0; color: #D0D0D0; font-size: 15px">シャワーと更衣室を完備しています。レンタルウェアもあります。</p>
 </div>
 </div>
 </div>
@@ -351,17 +358,42 @@ a{color:#111111}a:hover{color:#9C5200}
 </section>
 
 <section id="apply" style="position: relative; background: #8E8A82; color: #FFFFFF">
-<img src="images/cta.jpg" alt="白いスタジオで、スパインコレクターに手をつき背中を反らす人" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%">
-<div style="position: absolute; inset: 0; background: rgba(17, 17, 17, 0.55)" aria-hidden="true"></div>
-<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 160px 24px 120px; box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 32px 56px; align-items: center; justify-content: space-between">
-<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-size: clamp(30px, 4.6vw, 52px); font-weight: 900; line-height: 1.3">モニター企業に申し込む</h2>
-<p style="margin: 0; font-size: 16px; font-weight: 500">会社名、ご担当者名、希望人数をメールでお送りください。</p>
+<img src="images/cta.jpg" alt="白いスタジオで、スパインコレクターに手をつき背中を反らす人" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%">
+<div style="position: absolute; inset: 0; background: rgba(17, 17, 17, 0.62)" aria-hidden="true"></div>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 112px 24px; box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 40px 64px; align-items: flex-start">
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; color: #F5A030">CONTACT</p>
+<h2 style="margin: 0; font-size: clamp(30px, 4.6vw, 52px); font-weight: 900; line-height: 1.3">申し込み・<br>お問い合わせ</h2>
+<p style="margin: 0; font-size: 16px; font-weight: 500">モニターの申し込みも、ご質問だけでも。2営業日以内にメールでお返事します。</p>
+<p style="margin: 0; font-size: 14px">メールでも受け付けています。<br><a href="mailto:info@olivetree-wellness.com" style="color: #FFFFFF; font-weight: 700">info@olivetree-wellness.com</a></p>
 </div>
-<div style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start">
-<a href="mailto:info@olivetree-wellness.com?subject=%E6%B3%95%E4%BA%BA%E5%A5%91%E7%B4%84%20%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E7%94%B3%E8%BE%BC" style="display: inline-flex; align-items: center; min-height: 60px; padding: 0 36px; background: #E8830C; color: #111111; font-weight: 900; font-size: 18px; text-decoration: none">メールで申し込む</a>
-<span style="font-size: 15px; font-weight: 700">info@olivetree-wellness.com</span>
+<form action="https://formsubmit.co/info@olivetree-wellness.com" method="POST" accept-charset="UTF-8" style="flex: 1 1 440px; min-width: 0; background: #FFFFFF; color: #111111; padding: clamp(24px, 4vw, 40px); box-sizing: border-box; display: flex; flex-direction: column; gap: 18px">
+<input type="hidden" name="_subject" value="【法人契約LP】お問い合わせ">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://solera-corporate-lp.vercel.app/thanks.html">
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display: none">
+<label class="f-l"><span>ご用件<span class="f-req">必須</span></span>
+<select class="f-in" name="ご用件" required>
+<option value="モニター企業に申し込む">モニター企業に申し込む（1ヶ月無料）</option>
+<option value="法人契約について相談する">法人契約について相談する</option>
+<option value="見学を希望する">見学を希望する</option>
+<option value="その他">その他</option>
+</select></label>
+<label class="f-l"><span>会社名<span class="f-req">必須</span></span><input class="f-in" type="text" name="会社名" autocomplete="organization" required></label>
+<label class="f-l"><span>ご担当者名<span class="f-req">必須</span></span><input class="f-in" type="text" name="ご担当者名" autocomplete="name" required></label>
+<label class="f-l"><span>メールアドレス<span class="f-req">必須</span></span><input class="f-in" type="email" name="email" autocomplete="email" required></label>
+<div style="display: flex; flex-wrap: wrap; gap: 18px">
+<label class="f-l" style="flex: 1 1 180px; min-width: 0"><span>電話番号</span><input class="f-in" type="tel" name="電話番号" autocomplete="tel"></label>
+<label class="f-l" style="flex: 1 1 140px; min-width: 0"><span>利用人数の目安</span>
+<select class="f-in" name="利用人数の目安">
+<option value="未定">未定</option><option value="1名">1名</option><option value="2〜4名">2〜4名</option><option value="5〜9名">5〜9名</option><option value="10名以上">10名以上</option>
+</select></label>
 </div>
+<label class="f-l"><span>ご質問・ご要望</span><textarea class="f-in" name="ご質問・ご要望"></textarea></label>
+<button class="f-btn" type="submit">送信する</button>
+<p style="margin: 0; font-size: 12px; color: #5C5C5C">ご入力いただいた内容は、お問い合わせへの回答にのみ使用します。</p>
+</form>
 </div>
 </section>
 
